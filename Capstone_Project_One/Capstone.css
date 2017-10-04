@@ -1,0 +1,52 @@
+body{
+  margin: 0px 0px 0px 0px;
+  background-color: #54c5f2;
+  border: 80px solid #6bf99a;
+  border-top: 0px;
+}
+
+h1{
+  font-family: 'Slabo 27px', serif;
+}
+
+h1[id='thanks']{
+  font-size: 5em;
+}
+
+#toptitle{
+  font-size: 3em;
+}
+
+
+p{
+  font-family: 'Slabo 27px', serif;
+  padding: 10px 20% 10px 20%;
+  font-size: 30px;
+}
+
+input{
+  width: 30%;
+  height: 50px;
+  font-size: 1.5em;
+}
+
+input[type='submit']{
+  background-color: yellow;
+  border-radius: 15px;
+  width: 10%;
+  height: 50px;
+}
+
+label{
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.8em;
+      display: block;
+}
+
+form{
+
+}
+
+*{
+  text-align: center;
+}

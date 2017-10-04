@@ -1,0 +1,38 @@
+#title{
+  font-family: 'Bellefair', serif;
+  text-align: center;
+}
+
+#table{
+  margin: auto;
+}
+
+#row{
+  height: 500px;
+}
+
+.elements{
+  width: 100px;
+  padding: 20px;
+  border: 10px solid white;
+}
+
+#first{
+  background-color: #00B11E;
+}
+
+#second{
+  background-color: #007FFF;
+}
+
+#third{
+  background-color: #FF6600;
+}
+
+#fourth{
+  background-color: #E89005;
+}
+
+#fifth{
+  background-color: #EC7505;
+}
