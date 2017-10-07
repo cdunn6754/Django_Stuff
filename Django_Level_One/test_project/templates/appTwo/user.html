@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HELP PAGE</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css" %}">
+  </head>
+  <body>
+    <h1>Hi here is a list of the users.</h1>
+
+    <div class="userList">
+
+      {% if user_list%}
+        {% for user in user_list %}
+          <ul>
+            User Info:
+              <ul>
+                <li>First Name: {{user.f_name}}</li>
+                <li>Last Name: {{user.l_name}}</li>
+                <li>Email: {{user.email}}</li>
+              </ul>
+          </ul>
+        {% endfor %}
+      {% else %}
+      <h2>Users not found!</h2>
+      {% endif %}
+
+    </div>
+  </body>
+</html>
